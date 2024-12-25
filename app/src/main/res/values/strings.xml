@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Belarus Universities</string>
+
+    <string name="Reg">Registration</string>
+    <string name="RegButton">Register</string>
+    <string name="Email">Email</string>
+    <string name="Name">Name</string>
+    <string name="Log">Login</string>
+    <string name="Pas">Password</string>
+    <string name="Ent">Enter</string>
+
+    <string name="Welcome">Welcome</string>
+</resources>

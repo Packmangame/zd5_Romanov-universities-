@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical"
+    tools:context=".Registration">
+
+    <ImageView
+        android:layout_width="212dp"
+        android:layout_height="202dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/dormitory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/Reg"
+        android:textSize="36dp"
+        android:textColor="@color/text"/>
+
+    <EditText
+        android:id="@+id/Reg_email"
+        android:layout_width="385dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/Email"
+        android:paddingLeft="5dp"
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        />
+
+
+
+    <EditText
+        android:id="@+id/Reg_name"
+        android:layout_width="385dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/Name"
+        android:textColor="@color/text"
+        android:paddingLeft="5dp"
+        android:textColorHint="@color/text"
+         />
+
+    <EditText
+        android:id="@+id/Reg_login"
+        android:layout_width="385dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/Log"
+        android:textColor="@color/text"
+        android:paddingLeft="5dp"
+        android:textColorHint="@color/text"
+        />
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/Reg_password"
+            android:layout_width="315dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/back"
+            android:fontFamily="@font/aclonica"
+            android:hint="@string/Pas"
+            android:inputType="numberPassword"
+            android:textColor="@color/text"
+            android:paddingVertical="5dp"
+            android:textColorHint="@color/text"
+            />
+
+        <ImageButton
+            android:id="@+id/Reg_button_see_pass"
+            android:layout_width="57dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/viewe"
+            android:backgroundTint="@color/back"
+            android:contentDescription="Show pass"/>
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="GO_TO_Enter"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_gravity="center"
+        android:text="@string/RegButton"
+        android:textAllCaps="false"
+        android:textSize="32dp"
+
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/text"
+        android:layout_marginTop="35dp"/>
+
+
+</LinearLayout>

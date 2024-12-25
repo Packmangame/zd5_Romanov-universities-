@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Enter"
+    android:orientation="vertical"
+    android:background="@color/back">
+
+    <ImageView
+        android:layout_width="212dp"
+        android:layout_height="202dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:src="@drawable/dormitory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/Welcome"
+        android:textColor="@color/text"
+        android:textSize="36dp" />
+
+    <EditText
+        android:id="@+id/Ent_log"
+        android:layout_width="385dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:background="@drawable/edit"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/Log"
+        android:paddingLeft="5dp"
+
+        android:textColor="@color/text"
+        android:textColorHint="@color/text"
+        android:textSize="32dp" />
+
+    <EditText
+        android:id="@+id/Ent_pass"
+        android:layout_width="385dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/edit"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/Pas"
+        android:textColor="@color/text"
+        android:paddingLeft="5dp"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/text"
+        android:textSize="32dp" />
+
+    <Button
+        android:onClick="GO_TO_MAIN"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_gravity="center"
+        android:text="@string/Ent"
+        android:textAllCaps="false"
+        android:textSize="32dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/text"
+        android:layout_marginTop="35dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/aclonica"
+        android:text="Don't have an account?"
+        android:textColor="@color/SecText" />
+    <TextView
+
+        android:id="@+id/register_click"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/aclonica"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal_200"
+        android:text="@string/Reg"
+        android:textSize="15dp"/>
+
+</LinearLayout>
+</LinearLayout>
